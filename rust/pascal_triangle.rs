@@ -1,5 +1,5 @@
 //Gera o triangulo de pascal dentro de uma array
-fn matrix_gen() {
+fn pascal() {
     const HEIGHT: usize = 5;
     const END: usize = HEIGHT + 1; 
     let mut triangle: [[i32; END]; HEIGHT] = [[0; END]; HEIGHT];
@@ -26,5 +26,5 @@ fn matrix_gen() {
 }
 
 fn main() {
-    matrix_gen();
+    pascal();
 }
